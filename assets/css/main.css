@@ -569,6 +569,14 @@ textarea{
     margin: 2rem 0 6rem 0;
 }
 
+#favcolor{
+    margin-left: 1em;
+} 
+
+.colorPicker{
+    padding-left: 10em;
+    margin-bottom: 2em;
+}
 /* print segment */
 @media print{
     body *{
