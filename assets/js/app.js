@@ -226,3 +226,8 @@ function previewImage(){
 function printCV(){
     window.print();
 }
+
+colorPicker = document.querySelector("#favcolor")
+colorPicker.addEventListener("change", (e) => {
+    document.querySelector(":root").style.setProperty('--clr-new', e.target.value)
+}, false)
